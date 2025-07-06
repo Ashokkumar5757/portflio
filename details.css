@@ -1,0 +1,143 @@
+.contents {
+    padding: 0% 8%;
+    margin: auto;
+    margin-top: 5em;
+}
+.contents > h1 {
+    width: 60%;
+    font-size: 3.2em;
+}
+.contents > .head p {
+    display: inline-block;
+    column-gap: 1.5em;
+    margin: 1.5em 0em;
+}
+.contents > .head > .year {
+    background-color: red;
+    color: white;
+    font-weight: 550;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: .2em .5em;
+}
+.contents > .head > p:last-child {
+    font-size: 1.8em;
+}
+.contents > .para {
+    width: 85%;
+}
+.contents > .image > img {
+    width: 60em;
+    height: 30em;
+    margin-top: 3em;
+}
+.contents > h2 {
+    font-size: 3em;
+    margin-top: .8em;
+}
+.contents > h3 {
+    font-size: 2em;
+    margin: .5em 0em;
+}
+
+@media screen and (max-width:991px){
+
+    .contents > h1 {
+        font-size: 2.5em;
+        width: 100%;
+    }
+    body p{
+        font-size: 1.15em;
+        line-height: 1.3em;
+    }
+    .contents > .head p {
+        margin: 1em 0em;
+    }
+    .contents > .head > .year {
+    font-weight: 550;
+    font-size: 1em;
+    border-radius: 15px;
+    }
+    .contents > .head > p:last-child {
+    font-size: 1.4em;
+    }
+    .contents > .image > img {
+    width: 40em;
+    height: 25em;
+    }
+    .contents > h2 {
+    font-size: 2em;
+    }
+    .contents > h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:1199px){ 
+    .contents > .image > img {
+        width: 40em;
+        height: 20em;
+    }
+}
+@media screen and (max-width:780px){
+
+    .contents > .head > .year {
+    font-weight: 550;
+    font-size: .8em;
+    border-radius: 15px;
+    }
+    .contents > .head p {
+        margin: .7em 0em;
+    }
+    .contents > .head > p:last-child {
+    font-size: 1.2em;
+    }
+    .contents > .image > img {
+        width: 30em;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width:608px){
+    .contents > .image > img {
+        width: 29em;
+        height: 10em;
+    }
+    .contents > h2 {
+        font-size: 1.5em;
+    }
+    .contents > h3 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:595px) {
+    .contents > .image > img {
+        width: 28em;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .contents > .image > img {
+        width: 22em;
+        height: 13em;
+    }
+    .contents {
+        margin-top: 1.5em;
+    }
+}
+
+@media screen and (max-width:395px) {
+    .contents > .image > img {
+        width: 20em;
+        height: 10em;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .contents > .image > img {
+        width: 18em;
+        height: 10em;
+    }
+}

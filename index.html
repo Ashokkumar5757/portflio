@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portflio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="btn" id="ham">
+            <button id="btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li class="nav-item"><a href="./index.html" style="color: red;">Home</a></li>
+                    <li class="nav-item"><a href="./works.html">Works</a></li>
+                    <li class="nav-item"><a href="./blogs.html">Blog</a></li>
+                    <li class="nav-item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <section class="about">
+            <div class="left_ctn">
+                <div>
+                    <h1>Hi, I am John, Creative Technologist</h1>
+                    <p>Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button>Download Resume</button>
+                </div>
+            </div>
+            <div class="right_ctn">
+                <div>
+                    <img src="Images/profile.jpg" alt="no_profile">
+                </div>
+            </div>
+        </section>
+        <section class="post">
+            <div>
+                <div class="content">
+                    <div class="head">
+                        <p>Recent posts</p>
+                        <button>View all</button>
+                    </div>
+                    <div class="container">
+                        <div class="details">
+                            <h1>Making a design system from scratch</h1>
+                            <p class="date">12 Feb 2020 &nbsp; | &nbsp; Design, Pattern</p>
+                            <p class="para">
+                                Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                        <div class="details">
+                            <h1>Creating pixel perfect icons in Figma</h1>
+                            <p class="date">12 Feb 2020 &nbsp; | &nbsp; Figma, Icon Design</p>
+                            <p class="para">
+                                Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div>
+                <p>Featured works</p>
+                <div class="work">
+                    <div class="left_ctn">
+                        <div>
+                            <img src="Images/Design_dashboards.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right_ctn">
+                        <h1>Designing Dashboards</h1>
+                        <div>
+                            <p class="year">2020</p>
+                            <p>Dashboard</p>
+                        </div>
+                        <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="left_ctn">
+                        <div>
+                            <img src="Images/portraits.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right_ctn">
+                        <h1>Vibrant Portraits of 2020</h1>
+                        <div>
+                            <p class="year">2018</p>
+                            <p>Illustration</p>
+                        </div>
+                        <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="left_ctn">
+                        <div>
+                            <img src="Images/36_days.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right_ctn">
+                        <h1>36 Days of Malayalam type</h1>
+                        <div>
+                            <p class="year">2018</p>
+                            <p>Typography</p>
+                        </div>
+                        <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Copyright ©2020 All rights reserved</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const btn = document.getElementById("btn");
+        const menu = document.getElementById("menu");
+        btn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

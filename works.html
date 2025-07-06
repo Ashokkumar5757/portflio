@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .content > .works > div > h1 {
+            font-size: 4em;
+            margin-bottom: .5em;
+        }
+        .content > .works a {
+            text-decoration: none;
+            color: black;
+        }
+        @media screen and (max-width:1199px){
+            .content > .works > div > h1 {
+                font-size: 2.5em;
+            }
+            .content > .works .work {
+                flex-wrap: wrap;
+            }
+            .content > .works .work > .right_ctn .year {
+                font-size: 1em;
+            }    
+            .content > .works .work img {
+                width: 20em;
+            }
+        }
+        @media screen and (max-width:440px) {
+            .content > .works .work img {
+                width: 22em;
+            }
+        }
+        @media screen and (max-width:420px) {
+            .content > .works .work img {
+                width: 21.5em;
+            }
+        }
+        @media screen and (max-width:395px) {
+            .content > .works .work img {
+                width: 20.5em;
+            }
+        }
+        @media screen and (max-width:380px) {
+            .content > .works .work img {
+                width: 19.5em;
+            }
+        }
+        @media screen and (max-width:365px) {
+            .content > .works .work img {
+                width: 19em;
+            }
+        }
+        @media screen and (max-width:345px) {
+            .content > .works .work img {
+                width: 18em;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="btn" id="ham">
+            <button id="btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./works.html"  style="color: red;">Works</a></li>
+                    <li class="nav-item"><a href="./blogs.html">Blog</a></li>
+                    <li class="nav-item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="content">
+        <div class="works">
+            <div>
+                <h1>work</h1>
+                <a href="./detail1.html">
+                    <div class="work">
+                        <div class="left_ctn">
+                            <div>
+                                <img src="Images/Design_dashboards.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right_ctn">
+                            <h1>Designing Dashboards</h1>
+                            <div>
+                                <p class="year">2020</p>
+                                <p>Dashboard</p>
+                            </div>
+                            <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="./detail1.html">
+                    <div class="work">
+                        <div class="left_ctn">
+                            <div>
+                                <img src="Images/portraits.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right_ctn">
+                            <h1>Vibrant Portraits of 2020</h1>
+                            <div>
+                                <p class="year">2018</p>
+                                <p>Illustration</p>
+                            </div>
+                            <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="./detail1.html">
+                    <div class="work">
+                        <div class="left_ctn">
+                            <div>
+                                <img src="Images/36_days.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right_ctn">
+                            <h1>36 Days of Malayalam type</h1>
+                            <div>
+                                <p class="year">2018</p>
+                                <p>Typography</p>
+                            </div>
+                            <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="./detail1.html">
+                    <div class="work">
+                        <div class="left_ctn">
+                            <div>
+                                <img src="Images/components.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right_ctn">
+                            <h1>Components</h1>
+                            <div>
+                                <p class="year">2018</p>
+                                <p>Components, Design</p>
+                            </div>
+                            <p class="para"> Amet minim mollit not deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Copyright ©2020 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const menu = document.getElementById("menu");
+        btn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
